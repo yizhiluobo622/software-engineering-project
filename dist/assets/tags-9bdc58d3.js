@@ -1,1 +1,0 @@
-import{d as t}from"./db-a38e221e.js";import{u as n}from"./id-0d1586fb.js";async function i(a,s){const r={id:n("tag"),name:a,color:s};return await t.tags.add(r),r}async function c(){return t.tags.orderBy("name").toArray()}async function d(a){await t.tags.delete(a)}export{i as c,c as l,d as r};
